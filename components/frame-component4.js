@@ -14,7 +14,7 @@ const FrameComponent4 = ({ className = "" }) => {
   const FAQs = [
     {
       question: 'What type of vehicles are eligible?',
-      answer: 'All types of vehicles, including bikes, cars, and trucks, are eligible to join MyFastX as long as they meet the necessary legal and safety requirements.'
+      answer: 'All types of vehicles, including bikes, cars, and trucks, are eligible to join now.'
     },
     {
       question: 'How do I get paid?',

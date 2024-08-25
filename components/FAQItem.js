@@ -3,11 +3,16 @@ import React, { useState } from 'react';
 const FAQItem = ({ question, answer }) => {
   const [isOpen, setIsOpen] = useState(false);
 
+  const handleClick = () => {
+    console.log('FAQ clicked');
+    setIsOpen(!isOpen);
+  };
+
   return (
     <div className="self-stretch border-gainsboro-200 border-b-[1px] border-solid overflow-hidden flex flex-col items-start justify-start">
       <div
         className="flex flex-row items-start justify-between pt-3 pb-[9px] pl-[18px] pr-[17px] gap-5 cursor-pointer"
-        onClick={() => setIsOpen(!isOpen)}
+        onClick={handleClick}
       >
         <div className="relative font-medium">
           {question}

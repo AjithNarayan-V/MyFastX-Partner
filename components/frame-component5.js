@@ -5,11 +5,11 @@ import Link from "next/link";
 const FrameComponent5 = ({ className = "" }) => {
   return (
     <section
-      className={`absolute top-[2535px]  w-full flex flex-row items-start justify-start max-w-full text-left text-xs text-accentcolor font-poppins ${className}`}
+      className={`absolute top-[2535px]  w-full flex flex-row items-start justify-start  text-left text-xs text-accentcolor font-poppins ${className}`}
     >
-      <div className="flex-1 flex flex-col items-center justify-start pt-[406px] px-0 pb-0 box-border min-w-full  " >
+      <div className="w-screen flex-1 flex flex-col items-center justify-start pt-[406px] px-0 pb-0 box-border min-w-full  " >
         <img
-          className="self-stretch relative max-w-full overflow-hidden max-h-full object-cover"
+          className="w-screen self-stretch relative max-w-full overflow-hidden max-h-full object-cover"
           alt=""
           src="/screenshot-20240622-181334-1@2x.png"
         />
